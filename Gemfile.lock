@@ -1,15 +1,15 @@
 PATH
   remote: .
   specs:
-    digipolitan-framework-swift-template-cli (0.1.0)
-      digipolitan-apps-tools (~> 0.2.0)
+    digipolitan-framework-swift-template-cli (0.1.1)
+      digipolitan-apps-tools (~> 0.2.1)
       rubyzip (~> 1.2)
 
 GEM
   remote: http://rubygems.org/
   specs:
     colorize (0.8.1)
-    digipolitan-apps-tools (0.2.0)
+    digipolitan-apps-tools (0.2.1)
       colorize (~> 0.8.1)
     rubyzip (1.2.1)
 
