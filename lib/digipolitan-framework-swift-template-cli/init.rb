@@ -34,12 +34,12 @@ module Digipolitan
         template_path = nil
         Digipolitan::FileUtils.remove_dir(unzip_destination_path)
         Zip::InputStream.open(zip_path) { |zip_file|
-          while entry = zip_file.get_next_entry
+          while (entry = zip_file.get_next_entry)
             f_path = File.join(unzip_destination_path, entry.name)
             if template_path == nil
               template_path = f_path
             end
-            if(entry.name_is_directory?)
+            if entry.name_is_directory?
               Digipolitan::FileUtils.mkdir_p(f_path)
             else
               Digipolitan::FileUtils.mkdir_p(File.dirname(f_path))

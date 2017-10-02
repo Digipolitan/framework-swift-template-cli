@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name                  = 'digipolitan-framework-swift-template-cli'
-  s.version               = '0.1.1'
-  s.date                  = '2017-02-21'
+  s.version               = '0.1.2'
+  s.date                  = '2017-10-02'
   s.summary               = 'Digipolitan Ruby tools to use swift framework template'
   s.homepage              = 'https://github.com/Digipolitan/framework-swift-template-cli'
   s.email                 = 'contact@digipolitan.com'
@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   s.description           = <<desc
 This module help you to install / use swift framework template
 desc
-s.add_runtime_dependency 'digipolitan-apps-tools', '~> 0.2.1'
+s.add_runtime_dependency 'digipolitan-apps-tools', '~> 0.2'
 s.add_runtime_dependency 'rubyzip', '~> 1.2'
 end
